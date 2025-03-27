@@ -35,9 +35,35 @@
       border: none;
       border-radius: 4px;
       cursor: pointer;
+      margin-bottom: 10px;
     }
     button:hover {
       background-color: #3367d6;
+    }
+    .nav-bar-btn {
+      background-color: #ff5500;
+      margin-bottom: 15px;
+    }
+    .nav-bar-btn:hover {
+      background-color: #ee4400;
+    }
+    .nav-bar-btn-1 {
+      background-color: #0052cc;
+      margin-bottom: 5px;
+    }
+    .nav-bar-btn-1:hover {
+      background-color: #0047b3;
+    }
+    .nav-bar-btn-2 {
+      background-color: #008800;
+      margin-bottom: 15px;
+    }
+    .nav-bar-btn-2:hover {
+      background-color: #007700;
+    }
+    .separator {
+      border-top: 1px solid #ccc;
+      margin: 15px 0;
     }
     .footer {
       margin-top: 15px;
@@ -49,6 +75,15 @@
 </head>
 <body>
   <h1>元素删除器</h1>
+  
+  <!-- 添加导航条按钮 -->
+  <button id="add-nav-bar-btn" class="nav-bar-btn">添加导航条</button>
+  
+  <!-- 添加新的导航条按钮 -->
+  <button id="add-nav-bar-btn-1" class="nav-bar-btn-1">添加导航条1</button>
+  <button id="add-nav-bar-btn-2" class="nav-bar-btn-2">添加导航条2</button>
+  
+  <div class="separator"></div>
   
   <div class="site-selector">
     <label for="site">选择网站:</label>

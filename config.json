@@ -4,6 +4,7 @@
       "顶部导航栏": "banner",
       "顶部导航栏(精确)": "Sticky AppHeader is-fixed",
       "侧边栏": "Pc-card Card",
+      "侧边栏(新版)": "data-za-detail-view-path-module:RightSideBar",
       "底部推荐": "TopstoryMain"
     }
   },
@@ -17,6 +18,20 @@
     "微博": {
       "顶部导航栏": "WB_global_nav",
       "右侧推荐": "fame_recommend"
+    }
+  },
+  {
+    "力扣": {
+      "暗黑主题": "leetcode-dark-theme",
+      "柔光护眼": "leetcode-soft-theme",
+      "蓝色护眼": "leetcode-blue-theme",
+      "棕色主题": "leetcode-sepia-theme",
+      "绿色护眼": "leetcode-green-theme"
+    }
+  },
+  {
+    "通用": {
+      "添加导航条": "add-navigation-bar"
     }
   }
 ] 
