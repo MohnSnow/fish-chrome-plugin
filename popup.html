@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>元素删除器</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: "Microsoft YaHei", sans-serif;
+    }
+    h1 {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .site-selector {
+      margin-bottom: 15px;
+    }
+    .element-selector {
+      margin-bottom: 15px;
+    }
+    select {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>元素删除器</h1>
+  
+  <div class="site-selector">
+    <label for="site">选择网站:</label>
+    <select id="site">
+      <option value="">-- 请选择网站 --</option>
+      <!-- 网站选项将通过JavaScript动态填充 -->
+    </select>
+  </div>
+  
+  <div class="element-selector">
+    <label for="element">选择要删除的元素:</label>
+    <select id="element" disabled>
+      <option value="">-- 请先选择网站 --</option>
+      <!-- 元素选项将通过JavaScript动态填充 -->
+    </select>
+  </div>
+  
+  <button id="delete-btn" disabled>删除所选元素</button>
+  
+  <div class="footer">
+    <p>提示: 先选择网站，再选择要删除的元素，然后点击删除按钮</p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 

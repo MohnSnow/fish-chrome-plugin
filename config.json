@@ -1,0 +1,22 @@
+[
+  {
+    "知乎": {
+      "顶部导航栏": "banner",
+      "顶部导航栏(精确)": "Sticky AppHeader is-fixed",
+      "侧边栏": "Pc-card Card",
+      "底部推荐": "TopstoryMain"
+    }
+  },
+  {
+    "虎扑": {
+      "banner": "banner",
+      "侧边栏": "Pc-card Card"
+    }
+  },
+  {
+    "微博": {
+      "顶部导航栏": "WB_global_nav",
+      "右侧推荐": "fame_recommend"
+    }
+  }
+] 
